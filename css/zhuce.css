@@ -1,0 +1,105 @@
+@charset "UTF-8"
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.all{
+	width: 100%;
+}
+.one{
+	border-bottom: 3px solid rgb(242,242,242);
+	width: 90%;
+	height: 120px;
+	margin: 0 auto;
+}
+.one1 img{
+	float: left;
+	width: 20%;
+	height: 120px;
+}
+.one2{
+	float: left;
+	width: 80%;
+	height:30px;
+	margin-top:80px;
+}
+.one2 a{
+	color: red;
+	text-decoration: none;
+}
+.one2 span{
+	margin-left:750px;
+}
+.two{
+	width: 35%;
+	height: 90px;
+	background-color: blue;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.two img{
+	width: 100%;
+	height:90px;
+}
+.three{
+	width: 35%;
+	height:70px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.three1 select{
+	font-size: 18px;
+	float: left;
+	width: 30%;
+	height: 70px;
+}
+.three2 input{
+	font-size: 18px;
+	float: left;
+	width: 65%;
+	height:64px;
+}
+.four{
+	width: 35%;
+	height:70px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.four input{
+	font-size: 18px;
+	text-align:center;
+	width: 96%;
+	height:70px;
+}
+.five{
+	width: 35%;
+	height:70px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.five button{
+	font-size: 20px;
+	background-color: red;
+	width: 97%;
+	height: 70px;
+	text-align: center;
+	border: none;
+}
+.six{
+	width: 35%;
+	height:70px;
+	margin: 0 auto;
+	margin-top:40px;
+}
+.six1 img{
+	float: left;
+	width: 40%;
+	height: 50px;
+}
+.six2 img{
+	float: left;
+	width: 40%;
+	height: 50px;
+	margin-left:60px;
+}

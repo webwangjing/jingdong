@@ -1,0 +1,870 @@
+@charset "UTF-8"
+
+        *{
+	        margin: 0px;
+	        padding: 0px;
+	    }
+ 		.all{
+			width: 100%;
+			background-color: rgb(227,228,229);
+		}
+		.one{
+			width: 100%;
+			height: 45px;
+			background-color: rgb(227,228,229);
+			margin:0 auto;
+		}
+		.one1 img{
+			float: left;
+			width:17%;
+			height:225px;
+		}
+		.one2 img{
+			float: left;
+			margin:10px 0px 0px 10px;
+		}
+		.one3 span{
+			float: left;
+			margin: 10px 200px 0px 5px;
+		}
+		.one3 ul li{
+			float: left;
+     	    background-color:rgb(227,228,229);
+     	    margin-left: 10px;
+     	    margin-top: 10px;
+     	    display: inline-block;
+     	    list-style: none;
+		}
+		.one3 a{
+			color: red;
+			text-decoration: none;
+		}
+		.one3 select{
+     	    background-color: rgb(227,228,229);
+     	    border: none;
+     	    color: gray;
+     	    font-size: 16px;
+        }
+		.two{
+			width: 100%;
+			height:180px;
+			background-color:rgb(240,243,239);
+			margin:0 auto;
+		}
+		.two1{
+			width: 100%;
+			height: 60px;
+			background-color:rgb(240,243,239);
+			margin-bottom: 20px;
+		}
+		.two11 input{
+			float: left;
+			width: 45%;
+			height:30px;
+			margin: 25px 0px 0px 70px;
+			border: none;
+		}
+		.two12 img{
+			float: left;
+			margin: 30px 0px 0px -60px;
+		}
+		.two13 img{
+			float: left;
+			margin:25px 0px 0px -20px;
+			width: 3%;
+			height:31px;
+		}
+		.two14 img{
+			float: left;
+			width: 15%;
+			height: 36px;
+			margin:25px 0px 0px 30px;
+		}
+		.two15 img{
+			float: left;
+			width: 7%;
+			height: 70px;
+			margin: 0px 0px 0px 22px;
+		}
+		.two2{
+			width: 100%;
+			height:30px;
+		}
+		.two2 a{
+			color: red;
+			text-decoration: none;
+		}
+		.two2 ul li{
+			margin-left:13px;
+			display: inline-block;
+     	    list-style: none;
+			
+		}
+		.two3{
+			width: 100%;
+			height:20px;
+		}
+		.two3 img{
+			margin-top: 15px;
+			margin-left:  600px;
+		}
+		.two4{
+			width: 100%;
+			height:20px;
+		}
+		.two4 ul li {
+			margin-left:15px;
+			display: inline-block;
+     	    list-style: none;
+		}
+		.three{
+			width: 100%;
+			height:490px;
+			background-color:rgb(240,243,239);
+			margin:0 auto;
+		}
+		.three1{
+			float: left;
+			width: 17%;
+			height:370px;
+			margin-bottom: 10px;
+		}
+		.three1 ul li{
+			width: 100%;
+			margin-bottom: 9px;
+			font-size: 16px;
+			margin-left:5px;
+			display: inline-block;
+     	    list-style: none;
+		}
+		#frame{
+			position:absolute;
+			width:700PX;
+			height:490px;
+			overflow:hidden;
+			border-radius:5px;
+			margin-left: 17%;
+		}
+        #dis{
+        	position:absolute;
+        	left:-50px;
+        	top:-10px;
+        	opacity:.5
+        }
+        #dis li{
+        	display:inline-block;
+        	width:10px;
+        	height:10px;
+        	margin:0 200px;
+        	float:left;
+        	text-align:center;
+        	color:#fff;
+        	border-radius:10px;
+        	background:#000
+        }
+        #photos img{
+        	float:left;
+        	width:700PX;
+        	height:490px;
+        }
+        #photos {
+            position: absolute;
+            z-index:9;
+            width: calc(700px * 4);
+        }
+        .play{
+        	animation: ma 10s ease-out infinite alternate;
+        }
+        @keyframes ma {
+            0%,25% {
+         	margin-left: 0px;
+            }
+            30%,50% {
+         	margin-left: -700px;
+            }
+            55%,75% {
+        	margin-left: -1400px;
+            }
+            80%,100% {
+        	margin-left: -2100px;
+            }
+        }
+		.three3{
+			position: relative;
+			float: left;
+			width: 13%;
+			height:480px;
+			margin: 0px 0px 10px 700px;
+		}
+		.three31 img{
+			width:100%;
+			height: 150px;
+			margin: 0px 0px 5px 0px; 
+		}
+		.three32 img{
+			width:100%;
+			height: 150px; 
+			margin: 0px 0px 5px 0px;
+		}
+		.three33 img{
+			width:100%;
+			height: 160px; 
+		}
+		.three4{
+			float: left;
+			width: 15%;
+			height:480px;
+			margin: 0px 0px 0px 5px;
+		}
+		.three41 img{
+			width: 100%;
+			height: 149px;
+			margin-bottom: 5px;
+		}
+		.three42{
+			width: 100%;
+			height:150px;
+			background-color: white;
+		}
+		.three42 img{
+			width: 100%;
+			height:30px;
+		}
+		.three42 span{
+			display: inline-block;
+			margin-top: 10px;
+			font-size: 14px;
+		}
+		.three43 img{
+			width:100%;
+			height:160px;
+			margin-top: 10px;
+		}
+		.four{
+			width: 100%;
+			height:270px;
+			background color: rgb(240,243,239) ;
+		}
+		.four img{
+			width: 100%;
+			height:260px;
+			margin: 10px 0px 0px 30px;
+
+		}
+		.five{
+            width: 100%;
+			height:370px;
+			background-color:rgb(240,243,239);
+		}
+		.five1 img{
+			float: left;
+			width: 32%;
+			height: 360px;
+			margin: 10px 10px 0px 10px;
+		}
+		.five2 img{
+			float: left;
+			width: 32%;
+			height: 360px;
+			margin: 10px 10px 0px 0px;
+		}
+		.five3 img{
+			float: left;
+			width: 32%;
+			height: 360px;
+			margin: 10px 10px 0px 0px;
+		}
+		.six{
+            width:100%;
+			height:380px;
+			background-color:rgb(240,243,239);
+		}
+		.six1 img{
+			float: left;
+			width: 32%;
+			height: 380px;
+			margin: 10px 10px 0px 10px;
+		}
+		.six2 img{
+			float: left;
+			width: 32%;
+			height: 380px;
+			margin: 10px 10px 0px 0px;
+		}
+		.six3 img{
+			float: left;
+			width: 32%;
+			height: 380px;
+			margin: 10px 10px 0px 0px;
+		}
+		.seven{
+            width: 100%;
+            height:100px;
+            background-color: rgb(240,243,239);
+		}
+		.seven img{
+            width: 35%;
+            height:80px;
+            margin-left: 400px;
+		}
+		.eight{
+            width: 100%;
+			height:400px;
+			background-color:rgb(240,243,239);
+		}
+		.eight1 img{
+			float: left;
+			width: 32%;
+			height: 400px;
+			margin: 10px 10px 0px 10px;
+		}
+		.eight2 img{
+			float: left;
+			width: 32%;
+			height:400px;
+			margin: 10px 10px 0px 0px;
+		}
+		.eight3 img{
+			float: left;
+			width: 32%;
+			height: 400px;
+			margin: 10px 10px 0px 0px;
+		}
+		.nine{
+            width: 100%;
+			height:400px;
+			background-color:rgb(240,243,239);
+		}
+		.nine1 img{
+			float: left;
+			width: 32%;
+			height:400px;
+			margin: 10px 10px 0px 10px;
+		}
+		.nine2 img{
+			float: left;
+			width: 32%;
+			height:400px;
+			margin: 10px 10px 0px 0px;
+		}
+		.nine3 img{
+			float: left;
+			width: 32%;
+			height:400px;
+			margin: 10px 10px 0px 0px;
+		}
+		.ten{
+            width: 100%;
+			height:400px;
+			background-color:rgb(240,243,239);
+		}
+		.ten1 img{
+			float: left;
+			width: 32%;
+			height:400px;
+			margin: 10px 10px 0px 10px;
+		}
+		.ten2 img{
+			float: left;
+			width: 32%;
+			height:400px;
+			margin: 10px 10px 0px 0px;
+		}
+		.ten3 img{
+			float: left;
+			width: 32%;
+			height: 400px;
+			margin: 10px 10px 0px 0px;
+		}
+		.eleven {
+            width: 100%;
+            height: 100px;
+            background-color: rgb(240,243,239);
+		}
+		.eleven img{
+			width: 100%;
+			height: 100px;
+		}
+		.twelve{
+            width: 100%;
+			height:400px;
+			background-color:rgb(240,243,239);
+		}
+		.twelve1 img{
+			float: left;
+			width: 32%;
+			height:400px;
+			margin: 20px 10px 0px 10px;
+		}
+		.twelve2 img{
+			float: left;
+			width: 32%;
+			height:400px;
+			margin: 20px 10px 0px 0px;
+			
+		}
+		.twelve3 img{
+			float: left;
+			width: 32%;
+			height:400px;
+			margin: 20px 10px 0px 0px;
+			
+		}
+		.thirteen{
+            width: 100%;
+			height:400px;
+			background-color:rgb(240,243,239);
+		}
+		.thirteen1 img{
+			float: left;
+			width: 32%;
+			height:400px;
+			margin: 20px 10px 0px 10px;
+		}
+		.thirteen2 img{
+			float: left;
+			width: 32%;
+			height:400px;
+			margin: 20px 10px 0px 0px;
+		}
+		.thirteen3 img{
+			float: left;
+			width: 32%;
+			height: 400px;
+			margin: 20px 10px 0px 0px;
+		}
+		.fourteen {
+            width: 100%;
+            height: 100px;
+            background-color: rgb(240,243,239);
+		}
+		.fourteen img{
+			width: 100%;
+			height: 100px;
+		}
+		.fifteen {
+            width: 100%;
+            height:900px;
+            clear:both;
+            background-color: rgb(240,243,239);
+		}
+		.fifteen img{
+			width: 100%;
+			height:900px;
+			margin:40px 0px 0px 0px;
+		}
+		.eightteen {
+			clear: both;
+            width: 100%;
+            height:100px;
+            background-color:rgb(240,243,239);
+            display: inline-block;
+		}
+		.eightteen img{
+			width: 90%;
+			height:80px;
+			margin: 10px 0px 0px 0px;
+		}
+		.nineteen {
+            width: 100%;
+            height:800px;
+            clear:both;
+            background-color: rgb(240,243,239);
+		}
+		.nineteen img{
+			width: 100%;
+			height:800px;
+			margin:40px 0px 0px 0px;
+		}
+		.twenty {
+            width: 100%;
+            height:100px;
+            clear:both;
+            background-color: rgb(240,243,239);
+		}
+		.twenty img{
+			width: 100%;
+			height:100px;
+			margin:10px 0px 0px 0px;
+		}
+		.twenty-one {
+            width: 100%;
+            height:1000px;
+            clear:both;
+            background-color: rgb(240,243,239);
+		}
+		.twenty-one img{
+			width: 100%;
+			height:1000px;
+			margin:10px 0px 0px 0px;
+		}
+		.twenty-two {
+            width: 100%;
+            height:80px;
+            clear:both;
+            background-color: rgb(240,243,239);
+		}
+		.twenty-two img{
+			width: 100%;
+			height:80px;
+			margin:10px 0px 0px 0px;
+		}
+		.twenty-three {
+            width: 100%;
+            height:300px;
+            clear:both;
+            background-color: rgb(240,243,239);
+		}
+		.twenty-three img{
+			width: 100%;
+			height:300px;
+			margin:10px 0px 0px 0px;
+		}
+		.twenty-four {
+            width: 100%;
+            height:100px;
+            clear:both;
+            background-color: rgb(240,243,239);
+		}
+		.twenty-four img{
+			width: 100%;
+			height:100px;
+			margin:10px 0px 0px 0px;
+		}
+		.twenty-five {
+            width: 100%;
+            height:1000px;
+            clear:both;
+            background-color: rgb(240,243,239);
+		}
+		.twenty-five img{
+			width: 100%;
+			height:1000px;
+			margin:10px 0px 0px 0px;
+		}
+		.twenty-six {
+            width: 100%;
+            height:1000px;
+            clear:both;
+            background-color: rgb(240,243,239);
+		}
+		.twenty-six img{
+			width: 100%;
+			height:1000px;
+			margin:10px 0px 0px 0px;
+		}
+		.twenty-seven {
+            width: 100%;
+            height:1000px;
+            clear:both;
+            background-color: rgb(240,243,239);
+		}
+		.twenty-seven img{
+			width: 100%;
+			height:1000px;
+			margin:10px 0px 0px 0px;
+		}
+		.twenty-eight {
+            width: 100%;
+            height:1000px;
+            clear:both;
+            background-color: rgb(240,243,239);
+		}
+		.twenty-eight img{
+			width: 100%;
+			height:1000px;
+			margin:10px 0px 0px 0px;
+		}
+		.twenty-nine {
+            width: 100%;
+            height:1000px;
+            clear:both;
+            background-color: rgb(240,243,239);
+		}
+		.twenty-nine img{
+			width: 100%;
+			height:1000px;
+			margin:10px 0px 0px 0px;
+		}
+		.thirty {
+            width: 100%;
+            height:1000px;
+            clear:both;
+            background-color: rgb(240,243,239);
+		}
+		.thirty img{
+			width: 100%;
+			height:1000px;
+			margin:10px 0px 0px 0px;
+		}
+		.thirty-one {
+            width:100%;
+            height:1000px;
+            clear:both;
+            background-color: rgb(240,243,239);
+		}
+		.thirty-one img{
+			width: 100%;
+			height:1000px;
+			margin:10px 0px 0px 0px;
+		}
+		.thirty-two {
+            width:100%;
+            height:900px;
+            clear:both;
+            background-color: rgb(240,243,239);
+		}
+		.thirty-two img{
+			width: 100%;
+			height:800px;
+			margin:10px 0px 0px 0px;
+		}
+.thirty-three {
+    width:100%;
+    height:100px;
+    clear:both;
+    background-color: rgb(240,243,239);
+}
+.thirty-three1{
+	float: left;
+	width: 24%;
+	height: 70px;
+	margin: 0px 0px 0px 30px;
+}
+.thirty-three11{
+	float: left;
+}
+.thirty-three12{
+	float: left;
+	margin:12px 0px 0px 0px;
+}
+.thirty-three2{
+	float: left;
+	width: 24%;
+	height: 100px;
+}
+.thirty-three21{
+	float: left;
+}
+.thirty-three22{
+	float: left;
+	margin:12px 0px 0px 0px;
+}
+.thirty-three3{
+	float: left;
+	width: 24%;
+	height: 100px;
+}
+.thirty-three31{
+	float: left;
+}
+.thirty-three32{
+	float: left;
+	margin:12px 0px 0px 0px;
+}
+.thirty-three4{
+	float: left;
+	width: 23%;
+	height: 100px;
+}
+.thirty-three41{
+	float: left;
+}
+.thirty-three42{
+	float: left;
+	margin:12px 0px 0px 0px;
+		}
+.thirty-four {
+    width:100%;
+    height:230px;
+    clear:both;
+    background-color: rgb(240,243,239);
+}
+.thirty-four1{
+	float: left;
+	width: 15%;
+	height: 210px;
+	margin-left: 20px;
+}
+.thirty-four2{
+	float: left;
+	width: 15%;
+	height: 210px;
+}
+.thirty-four3{
+	float: left;
+	width: 15%;
+	height: 210px;
+}
+.thirty-four4{
+	float: left;
+	width: 15%;
+	height: 210px;
+}
+.thirty-four5{
+	float: left;
+	width: 15%;
+	height: 210px;
+}
+.thirty-four6 img{
+	float: left;
+	width: 20%;
+	height: 210px;
+}
+.thirty-five {
+    width:100%;
+    height:240px;
+    clear:both;
+    background-color: rgb(240,243,239);
+}
+.thirty-five1 ul li {
+	list-style: none;
+	display: inline-block;
+	margin:5px;
+	font-size: 12px;
+}
+.thirty-five1 ul{
+	text-align: center;
+}
+.thirty-five2 ul li{
+	color:rgb(153,176,197);
+	font-size: 10px;
+	list-style: none;
+	display: inline-block;
+	margin:2px;
+}
+.thirty-five2 ul{
+	text-align: center;
+}
+.thirty-five3 ul li{
+	color:rgb(153,176,197);
+	font-size: 10px;
+	list-style: none;
+	display: inline-block;
+	margin:2px;
+}
+.thirty-five3 ul{
+	text-align: center;
+}
+.thirty-five4 ul li{
+	color:rgb(153,176,197);
+	font-size: 10px;
+	list-style: none;
+	display: inline-block;
+	margin:2px;
+}
+.thirty-five4 ul{
+	text-align: center;
+}
+.thirty-five5{
+	width: 100%;
+	height:30px;
+}
+.thirty-five51{
+	float: left;
+	width: 15%;
+	height:30px;
+	margin-left:100px;
+}
+.thirty-five52{
+	float: left;
+	width: 15%;
+	height:30px;
+}
+.thirty-five53{
+	float: left;
+	width: 15%;
+	height:30px;
+}
+.thirty-five54{
+	float: left;
+	width: 15%;
+	height:30px;
+}
+.thirty-five55{
+	float: left;
+	width: 15%;
+	height:35px;
+}
+.thirty-five6 ul li{
+	color:rgb(153,176,197);
+	list-style: none;
+	display: inline-block;
+	margin:2px;
+}
+.thirty-five6 ul{
+	text-align: center;
+}
+.thirty-six{
+	width: 100%;
+	height:60px;
+	clear:both;
+    background-color: rgb(240,243,239);
+}
+.thirty-six1{
+	float: left;
+	width: 12%;
+	height: 60px;
+	margin-left:100px;
+}
+.thirty-six11{
+	float: left;
+}
+.thirty-six12{
+	float: left;
+}
+.thirty-six2{
+	float: left;
+	width: 12%;
+	height:60px;
+}
+.thirty-six21{
+	float: left;
+}
+.thirty-six22{
+	float: left;
+}
+.thirty-six3{
+	float: left;
+	width: 12%;
+	height:60px;
+}
+.thirty-six31{
+	float: left;
+}
+.thirty-six32{
+	float: left;
+}
+.thirty-six4{
+	float: left;
+	width: 12%;
+	height:60px;
+}
+.thirty-six41{
+	float: left;
+}
+.thirty-six42{
+	float: left;
+}
+.thirty-six5{
+	float: left;
+	width: 12%;
+	height:60px;
+}
+.thirty-six51{
+	float: left;
+}
+.thirty-six52{
+	float: left;
+}
+.thirty-six6{
+	float: left;
+	width: 12%;
+	height:60px;
+}
+.thirty-six61{
+	float: left;
+}
+.thirty-six62{
+	float: left;
+}
